@@ -1,0 +1,1735 @@
+Started GET "/mvpage/movielist" for 10.0.2.2 at 2019-10-03 22:33:47 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "movieapp_development" does not exist
+):
+  
+activerecord (6.0.0) lib/active_record/connection_adapters/postgresql_adapter.rb:50:in `rescue in postgresql_connection'
+activerecord (6.0.0) lib/active_record/connection_adapters/postgresql_adapter.rb:33:in `postgresql_connection'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:879:in `new_connection'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:923:in `checkout_new_connection'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:902:in `try_to_checkout_new_connection'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:863:in `acquire_connection'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:587:in `checkout'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:431:in `connection'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:1111:in `retrieve_connection'
+activerecord (6.0.0) lib/active_record/connection_handling.rb:231:in `retrieve_connection'
+activerecord (6.0.0) lib/active_record/connection_handling.rb:199:in `connection'
+activerecord (6.0.0) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.0) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 10.0.2.2 at 2019-10-03 22:37:11 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "movieapp_development" does not exist
+):
+  
+activerecord (6.0.0) lib/active_record/connection_adapters/postgresql_adapter.rb:50:in `rescue in postgresql_connection'
+activerecord (6.0.0) lib/active_record/connection_adapters/postgresql_adapter.rb:33:in `postgresql_connection'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:879:in `new_connection'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:923:in `checkout_new_connection'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:902:in `try_to_checkout_new_connection'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:863:in `acquire_connection'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:587:in `checkout'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:431:in `connection'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:1111:in `retrieve_connection'
+activerecord (6.0.0) lib/active_record/connection_handling.rb:231:in `retrieve_connection'
+activerecord (6.0.0) lib/active_record/connection_handling.rb:199:in `connection'
+activerecord (6.0.0) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.0) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 10.0.2.2 at 2019-10-03 22:37:23 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "movieapp_development" does not exist
+):
+  
+activerecord (6.0.0) lib/active_record/connection_adapters/postgresql_adapter.rb:50:in `rescue in postgresql_connection'
+activerecord (6.0.0) lib/active_record/connection_adapters/postgresql_adapter.rb:33:in `postgresql_connection'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:879:in `new_connection'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:923:in `checkout_new_connection'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:902:in `try_to_checkout_new_connection'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:863:in `acquire_connection'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:587:in `checkout'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:431:in `connection'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:1111:in `retrieve_connection'
+activerecord (6.0.0) lib/active_record/connection_handling.rb:231:in `retrieve_connection'
+activerecord (6.0.0) lib/active_record/connection_handling.rb:199:in `connection'
+activerecord (6.0.0) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.0) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (29.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (4.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3520071473891740845)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-10-04 03:50:13.519167"], ["updated_at", "2019-10-04 03:50:13.519167"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(3520071473891740845)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (135.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "movieapp_development"[0m
+  [1m[35m (113.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "movieapp_test"[0m
+  [1m[35m (288.3ms)[0m  [1m[35mCREATE DATABASE "movieapp_development" ENCODING = 'unicode'[0m
+  [1m[35m (346.6ms)[0m  [1m[35mCREATE DATABASE "movieapp_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (6.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (0)[0m
+  [1m[35m (4.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-10-04 03:50:33.663006"], ["updated_at", "2019-10-04 03:50:33.663006"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "83e6e9510955ef04f606b0339b1f0d53760104f9"], ["created_at", "2019-10-04 03:50:33.688389"], ["updated_at", "2019-10-04 03:50:33.688389"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (5.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (0)[0m
+  [1m[35m (5.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-10-04 03:50:33.770799"], ["updated_at", "2019-10-04 03:50:33.770799"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.4ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2019-10-04 03:50:33.780310"], ["key", "environment"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "83e6e9510955ef04f606b0339b1f0d53760104f9"], ["created_at", "2019-10-04 03:50:33.789829"], ["updated_at", "2019-10-04 03:50:33.789829"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 10.0.2.2 at 2019-10-04 14:31:01 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/vagrant/movieapp/app/controllers/mvpage_controller.rb:6: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/mvpage_controller.rb:6: syntax error, unexpected end-of-input, expecting end
+app/controllers/mvpage_controller.rb:6: syntax error, unexpected end-of-input, expecting end
+app/controllers/mvpage_controller.rb:6: syntax error, unexpected end-of-input, expecting end
+Started GET "/" for 10.0.2.2 at 2019-10-04 14:31:26 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.7ms | Allocations: 86)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /vagrant/movieapp/public/packs
+Completed 200 OK in 29177ms (Views: 29176.0ms | ActiveRecord: 0.0ms | Allocations: 1251710)
+
+
+Started GET "/" for 10.0.2.2 at 2019-10-04 14:36:49 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.2ms | Allocations: 87)
+Completed 200 OK in 56ms (Views: 52.8ms | ActiveRecord: 0.0ms | Allocations: 5990)
+
+
+Started GET "/" for 10.0.2.2 at 2019-10-04 14:37:23 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.6ms | Allocations: 83)
+Completed 200 OK in 53ms (Views: 51.9ms | ActiveRecord: 0.0ms | Allocations: 5953)
+
+
+Started GET "/" for 10.0.2.2 at 2019-10-04 14:37:31 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.1ms | Allocations: 87)
+Completed 200 OK in 46ms (Views: 44.7ms | ActiveRecord: 0.0ms | Allocations: 5972)
+
+
+Started GET "/" for 10.0.2.2 at 2019-10-04 14:38:34 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.1ms | Allocations: 84)
+Completed 200 OK in 44ms (Views: 42.6ms | ActiveRecord: 0.0ms | Allocations: 5955)
+
+
+Started GET "/" for 10.0.2.2 at 2019-10-04 14:39:02 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.6ms | Allocations: 83)
+Completed 200 OK in 46ms (Views: 44.5ms | ActiveRecord: 0.0ms | Allocations: 5951)
+
+
+Started GET "/" for 10.0.2.2 at 2019-10-04 14:39:21 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.6ms | Allocations: 84)
+Completed 200 OK in 57ms (Views: 55.6ms | ActiveRecord: 0.0ms | Allocations: 5957)
+
+
+Started GET "/echo" for 10.0.2.2 at 2019-10-04 14:40:12 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/echo"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 10.0.2.2 at 2019-10-04 15:51:46 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 497.9ms | Allocations: 146503)
+Completed 500 Internal Server Error in 506ms (ActiveRecord: 0.0ms | Allocations: 147717)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `feedback' for #<#<Class:0x00007fcea641c2e8>:0x00007fcea6422788>):
+    4: 
+    5: <%= form_with url: moviegrab_path, local: true, method: :post do %>
+    6: 
+    7: <%= radio_button_tag "mvselect", true, feedback.fetch(:mvselect,nil) == true.to_s %>
+    8: <%= label_tag "movie_select", "What's your interest " %>
+    9: <% end %>
+  
+app/views/mvpage/movielist.html.erb:7
+app/views/mvpage/movielist.html.erb:5
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/" for 10.0.2.2 at 2019-10-04 15:52:19 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 491.7ms | Allocations: 146299)
+Completed 500 Internal Server Error in 495ms (ActiveRecord: 0.0ms | Allocations: 146917)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `feedback' for #<#<Class:0x00007fcea61d05c0>:0x00007fcea61d6cb8>):
+    4: 
+    5: <%= form_with url: moviegrab_path, local: true, method: :post do %>
+    6: 
+    7: <%= radio_button_tag "mvselect", true, feedback.fetch(:mvselect,nil) == true.to_s %>
+    8: <%= label_tag "movie_select", "What's your interest " %>
+    9: <% end %>
+  
+app/views/mvpage/movielist.html.erb:7
+app/views/mvpage/movielist.html.erb:5
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/" for 10.0.2.2 at 2019-10-04 15:53:21 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 429.7ms | Allocations: 146299)
+Completed 500 Internal Server Error in 432ms (ActiveRecord: 0.0ms | Allocations: 146917)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `feedback' for #<#<Class:0x00007fcea5fbe8b8>:0x00007fcea5fbd058>):
+    4: 
+    5: <%= form_with url: moviegrab_path, local: true, method: :post do %>
+    6: 
+    7: <%= radio_button_tag "mvselect", true, feedback.fetch(:mvselect,nil) == true.to_s %>
+    8: <%= label_tag "movie_select", "What's your interest " %>
+    9: <% end %>
+  
+app/views/mvpage/movielist.html.erb:7
+app/views/mvpage/movielist.html.erb:5
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/" for 10.0.2.2 at 2019-10-04 15:54:12 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.8ms | Allocations: 361)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.0ms | Allocations: 5722)
+
+
+Started GET "/" for 10.0.2.2 at 2019-10-04 16:13:10 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.4ms | Allocations: 521)
+Completed 200 OK in 48ms (Views: 46.8ms | ActiveRecord: 0.0ms | Allocations: 6398)
+
+
+Started GET "/" for 10.0.2.2 at 2019-10-04 16:14:44 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.0ms | Allocations: 536)
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.0ms | Allocations: 6409)
+
+
+Started GET "/" for 10.0.2.2 at 2019-10-04 16:15:13 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.4ms | Allocations: 534)
+Completed 200 OK in 63ms (Views: 61.7ms | ActiveRecord: 0.0ms | Allocations: 6402)
+
+
+Started GET "/" for 10.0.2.2 at 2019-10-04 16:16:29 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.4ms | Allocations: 536)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.0ms | Allocations: 6408)
+
+
+Started GET "/" for 10.0.2.2 at 2019-10-04 16:16:55 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.3ms | Allocations: 536)
+Completed 200 OK in 86ms (Views: 85.5ms | ActiveRecord: 0.0ms | Allocations: 6418)
+
+
+Started GET "/" for 10.0.2.2 at 2019-10-04 16:25:10 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.4ms | Allocations: 541)
+Completed 200 OK in 64ms (Views: 63.2ms | ActiveRecord: 0.0ms | Allocations: 6386)
+
+
+Started GET "/" for 10.0.2.2 at 2019-10-04 16:25:30 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.5ms | Allocations: 537)
+Completed 200 OK in 63ms (Views: 61.7ms | ActiveRecord: 0.0ms | Allocations: 6407)
+
+
+Started GET "/" for 10.0.2.2 at 2019-10-04 16:25:39 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 0.8ms | Allocations: 358)
+Completed 200 OK in 58ms (Views: 56.9ms | ActiveRecord: 0.0ms | Allocations: 5300)
+
+
+Started GET "/" for 10.0.2.2 at 2019-10-04 16:25:40 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.0ms | Allocations: 353)
+Completed 200 OK in 47ms (Views: 45.5ms | ActiveRecord: 0.0ms | Allocations: 5298)
+
+
+Started GET "/" for 10.0.2.2 at 2019-10-04 16:25:40 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.1ms | Allocations: 353)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.0ms | Allocations: 5299)
+
+
+Started GET "/" for 10.0.2.2 at 2019-10-04 16:25:40 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.0ms | Allocations: 353)
+Completed 200 OK in 46ms (Views: 44.8ms | ActiveRecord: 0.0ms | Allocations: 5297)
+
+
+Started GET "/" for 10.0.2.2 at 2019-10-04 16:26:24 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.7ms | Allocations: 537)
+Completed 200 OK in 62ms (Views: 60.9ms | ActiveRecord: 0.0ms | Allocations: 6408)
+
+
+Started GET "/" for 10.0.2.2 at 2019-10-04 16:26:25 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.3ms | Allocations: 359)
+Completed 200 OK in 42ms (Views: 40.7ms | ActiveRecord: 0.0ms | Allocations: 5303)
+
+
+Started GET "/" for 10.0.2.2 at 2019-10-04 16:26:30 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 0.6ms | Allocations: 354)
+Completed 200 OK in 40ms (Views: 39.4ms | ActiveRecord: 0.0ms | Allocations: 5293)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3520071473891740845)[0m
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateMovieDbs (20191004214448)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (43.0ms)[0m  [1m[35mCREATE TABLE "movie_dbs" ("id" bigserial primary key, "title" character varying, "date_of_rel" date, "director" character varying, "rotten_site" character varying, "download" character varying, "gross" character varying, "genre" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191004214448"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(3520071473891740845)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (5149.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "movieapp_development"[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (197.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "movieapp_development"[0m
+  [1m[35m (114.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS "movieapp_test"[0m
+  [1m[35m (772.9ms)[0m  [1m[35mCREATE DATABASE "movieapp_development" ENCODING = 'unicode'[0m
+  [1m[35m (292.8ms)[0m  [1m[35mCREATE DATABASE "movieapp_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.5ms)[0m  [1m[35mDROP TABLE IF EXISTS "movie_dbs" CASCADE[0m
+  [1m[35m (7.7ms)[0m  [1m[35mCREATE TABLE "movie_dbs" ("id" bigserial primary key, "title" character varying, "date_of_rel" date, "director" character varying, "rotten_site" character varying, "download" character varying, "gross" character varying, "genre" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (12.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20191004214448)[0m
+  [1m[35m (4.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-10-06 02:17:17.675232"], ["updated_at", "2019-10-06 02:17:17.675232"]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "38d462c3f10c3de2425a2ac88c2c1325588ca407"], ["created_at", "2019-10-06 02:17:17.715792"], ["updated_at", "2019-10-06 02:17:17.715792"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "movie_dbs" CASCADE[0m
+  [1m[35m (7.5ms)[0m  [1m[35mCREATE TABLE "movie_dbs" ("id" bigserial primary key, "title" character varying, "date_of_rel" date, "director" character varying, "rotten_site" character varying, "download" character varying, "gross" character varying, "genre" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (11.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20191004214448)[0m
+  [1m[35m (12.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.8ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-10-06 02:17:17.800376"], ["updated_at", "2019-10-06 02:17:17.800376"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (7.1ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2019-10-06 02:17:17.810210"], ["key", "environment"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "38d462c3f10c3de2425a2ac88c2c1325588ca407"], ["created_at", "2019-10-06 02:17:17.832905"], ["updated_at", "2019-10-06 02:17:17.832905"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (115.0ms)[0m  [1m[35mDROP DATABASE IF EXISTS "movieapp_development"[0m
+  [1m[35m (116.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS "movieapp_test"[0m
+  [1m[35m (280.5ms)[0m  [1m[35mCREATE DATABASE "movieapp_development" ENCODING = 'unicode'[0m
+  [1m[35m (290.6ms)[0m  [1m[35mCREATE DATABASE "movieapp_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "movie_dbs" CASCADE[0m
+  [1m[35m (8.6ms)[0m  [1m[35mCREATE TABLE "movie_dbs" ("id" bigserial primary key, "title" character varying, "date_of_rel" date, "director" character varying, "rotten_site" character varying, "download" character varying, "gross" character varying, "genre" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (15.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20191004214448)[0m
+  [1m[35m (12.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-10-06 02:21:34.637125"], ["updated_at", "2019-10-06 02:21:34.637125"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "38d462c3f10c3de2425a2ac88c2c1325588ca407"], ["created_at", "2019-10-06 02:21:34.677327"], ["updated_at", "2019-10-06 02:21:34.677327"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "movie_dbs" CASCADE[0m
+  [1m[35m (7.5ms)[0m  [1m[35mCREATE TABLE "movie_dbs" ("id" bigserial primary key, "title" character varying, "date_of_rel" date, "director" character varying, "rotten_site" character varying, "download" character varying, "gross" character varying, "genre" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (12.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20191004214448)[0m
+  [1m[35m (13.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-10-06 02:21:34.766078"], ["updated_at", "2019-10-06 02:21:34.766078"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.7ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2019-10-06 02:21:34.779216"], ["key", "environment"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "38d462c3f10c3de2425a2ac88c2c1325588ca407"], ["created_at", "2019-10-06 02:21:34.788941"], ["updated_at", "2019-10-06 02:21:34.788941"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (113.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS "movieapp_development"[0m
+  [1m[35m (112.3ms)[0m  [1m[35mDROP DATABASE IF EXISTS "movieapp_test"[0m
+  [1m[35m (298.0ms)[0m  [1m[35mCREATE DATABASE "movieapp_development" ENCODING = 'unicode'[0m
+  [1m[35m (299.9ms)[0m  [1m[35mCREATE DATABASE "movieapp_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.5ms)[0m  [1m[35mDROP TABLE IF EXISTS "movie_dbs" CASCADE[0m
+  [1m[35m (8.0ms)[0m  [1m[35mCREATE TABLE "movie_dbs" ("id" bigserial primary key, "title" character varying, "date_of_rel" date, "director" character varying, "rotten_site" character varying, "download" character varying, "gross" character varying, "genre" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (4.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20191004214448)[0m
+  [1m[35m (4.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.8ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-10-06 02:22:32.743867"], ["updated_at", "2019-10-06 02:22:32.743867"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "38d462c3f10c3de2425a2ac88c2c1325588ca407"], ["created_at", "2019-10-06 02:22:32.783059"], ["updated_at", "2019-10-06 02:22:32.783059"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "movie_dbs" CASCADE[0m
+  [1m[35m (6.8ms)[0m  [1m[35mCREATE TABLE "movie_dbs" ("id" bigserial primary key, "title" character varying, "date_of_rel" date, "director" character varying, "rotten_site" character varying, "download" character varying, "gross" character varying, "genre" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (11.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20191004214448)[0m
+  [1m[35m (6.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-10-06 02:22:32.857263"], ["updated_at", "2019-10-06 02:22:32.857263"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.5ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2019-10-06 02:22:32.867682"], ["key", "environment"]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "38d462c3f10c3de2425a2ac88c2c1325588ca407"], ["created_at", "2019-10-06 02:22:32.878092"], ["updated_at", "2019-10-06 02:22:32.878092"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMovieDb Create (1.1ms)[0m  [1m[32mINSERT INTO "movie_dbs" ("title", "date_of_rel", "director", "rotten_site", "download", "gross", "genre", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "The Equalizer 2"], ["date_of_rel", -2004], ["director", "Antoine Fuqua"], ["rotten_site", "https://www.imdb.com/title/tt3766354/"], ["download", "movielist/1"], ["gross", "$102,084,362"], ["genre", "Thriller"], ["created_at", "2019-10-06 02:22:32.958793"], ["updated_at", "2019-10-06 02:22:32.958793"]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (115.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS "movieapp_development"[0m
+  [1m[35m (115.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS "movieapp_test"[0m
+  [1m[35m (294.9ms)[0m  [1m[35mCREATE DATABASE "movieapp_development" ENCODING = 'unicode'[0m
+  [1m[35m (287.2ms)[0m  [1m[35mCREATE DATABASE "movieapp_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "movie_dbs" CASCADE[0m
+  [1m[35m (8.3ms)[0m  [1m[35mCREATE TABLE "movie_dbs" ("id" bigserial primary key, "title" character varying, "date_of_rel" date, "director" character varying, "rotten_site" character varying, "download" character varying, "gross" character varying, "genre" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (4.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20191004214448)[0m
+  [1m[35m (4.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-10-06 14:55:55.557014"], ["updated_at", "2019-10-06 14:55:55.557014"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "38d462c3f10c3de2425a2ac88c2c1325588ca407"], ["created_at", "2019-10-06 14:55:55.596897"], ["updated_at", "2019-10-06 14:55:55.596897"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.5ms)[0m  [1m[35mDROP TABLE IF EXISTS "movie_dbs" CASCADE[0m
+  [1m[35m (6.9ms)[0m  [1m[35mCREATE TABLE "movie_dbs" ("id" bigserial primary key, "title" character varying, "date_of_rel" date, "director" character varying, "rotten_site" character varying, "download" character varying, "gross" character varying, "genre" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (12.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20191004214448)[0m
+  [1m[35m (14.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-10-06 14:55:55.689321"], ["updated_at", "2019-10-06 14:55:55.689321"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.4ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2019-10-06 14:55:55.703128"], ["key", "environment"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "38d462c3f10c3de2425a2ac88c2c1325588ca407"], ["created_at", "2019-10-06 14:55:55.713377"], ["updated_at", "2019-10-06 14:55:55.713377"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMovieDb Create (1.0ms)[0m  [1m[32mINSERT INTO "movie_dbs" ("title", "date_of_rel", "director", "rotten_site", "download", "gross", "genre", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "The Equalizer 2"], ["date_of_rel", "2018-06-20"], ["director", "Antoine Fuqua"], ["rotten_site", "https://www.imdb.com/title/tt3766354/"], ["download", "movielist/1"], ["gross", "$102,084,362"], ["genre", "Thriller"], ["created_at", "2019-10-06 14:55:55.778285"], ["updated_at", "2019-10-06 14:55:55.778285"]]
+  [1m[35m (50.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMovieDb Create (0.5ms)[0m  [1m[32mINSERT INTO "movie_dbs" ("title", "date_of_rel", "director", "rotten_site", "download", "gross", "genre", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "The Mountain Between Us"], ["date_of_rel", "2017-10-06"], ["director", "Hany Abu-Assad "], ["rotten_site", "https://www.imdb.com/title/tt2226597/"], ["download", "movielist/2"], ["gross", "$30,348,555"], ["genre", "Romance"], ["created_at", "2019-10-06 14:55:55.835357"], ["updated_at", "2019-10-06 14:55:55.835357"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMovieDb Create (0.5ms)[0m  [1m[32mINSERT INTO "movie_dbs" ("title", "date_of_rel", "director", "rotten_site", "download", "gross", "genre", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Dark Phoenix"], ["date_of_rel", "2019-06-07"], ["director", "Simon Kinberg"], ["rotten_site", "https://www.imdb.com/title/tt6565702/"], ["download", "movielist/3"], ["gross", "$65,845,974"], ["genre", "Sci-Fi"], ["created_at", "2019-10-06 14:55:55.841593"], ["updated_at", "2019-10-06 14:55:55.841593"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3520071473891740845)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(3520071473891740845)[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMovieDb Create (1.4ms)[0m  [1m[32mINSERT INTO "movie_dbs" ("title", "date_of_rel", "director", "rotten_site", "download", "gross", "genre", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "The Equalizer 2"], ["date_of_rel", "2018-06-20"], ["director", "Antoine Fuqua"], ["rotten_site", "https://www.imdb.com/title/tt3766354/"], ["download", "movielist/1"], ["gross", "$102,084,362"], ["genre", "Thriller"], ["created_at", "2019-10-06 14:56:47.942636"], ["updated_at", "2019-10-06 14:56:47.942636"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMovieDb Create (0.4ms)[0m  [1m[32mINSERT INTO "movie_dbs" ("title", "date_of_rel", "director", "rotten_site", "download", "gross", "genre", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "The Mountain Between Us"], ["date_of_rel", "2017-10-06"], ["director", "Hany Abu-Assad "], ["rotten_site", "https://www.imdb.com/title/tt2226597/"], ["download", "movielist/2"], ["gross", "$30,348,555"], ["genre", "Romance"], ["created_at", "2019-10-06 14:56:47.951158"], ["updated_at", "2019-10-06 14:56:47.951158"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMovieDb Create (0.4ms)[0m  [1m[32mINSERT INTO "movie_dbs" ("title", "date_of_rel", "director", "rotten_site", "download", "gross", "genre", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Dark Phoenix"], ["date_of_rel", "2019-06-07"], ["director", "Simon Kinberg"], ["rotten_site", "https://www.imdb.com/title/tt6565702/"], ["download", "movielist/3"], ["gross", "$65,845,974"], ["genre", "Sci-Fi"], ["created_at", "2019-10-06 14:56:47.956651"], ["updated_at", "2019-10-06 14:56:47.956651"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for 10.0.2.2 at 2019-10-06 10:22:31 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 498.6ms | Allocations: 144301)
+Completed 500 Internal Server Error in 536ms (ActiveRecord: 0.0ms | Allocations: 146215)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `grabber' for #<#<Class:0x000055b1a0bf9080>:0x000055b1a0e72910>):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: <h1><%=grabber.title%></h1>
+    3: 
+    4: <p>This site is for my family an I, because we know how to watch movies....</p>
+    5: 
+  
+app/views/mvpage/movielist.html.erb:2
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/" for 10.0.2.2 at 2019-10-06 10:22:57 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1885)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 3048)
+
+
+  
+ActionView::Template::Error (undefined method `title' for {:feedback=>{}}:Hash):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: <h1><%=local_assigns.title%></h1>
+    3: 
+    4: <p>This site is for my family an I, because we know how to watch movies....</p>
+    5: 
+  
+app/views/mvpage/movielist.html.erb:2
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/" for 10.0.2.2 at 2019-10-06 10:23:47 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1650)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2206)
+
+
+  
+ActionView::Template::Error (undefined method `title' for {:feedback=>{}}:Hash):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: <h1><%=local_assigns.title%></h1>
+    3: 
+    4: <p>This site is for my family an I, because we know how to watch movies....</p>
+    5: 
+  
+app/views/mvpage/movielist.html.erb:2
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/" for 10.0.2.2 at 2019-10-06 10:23:48 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1690)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2090)
+
+
+  
+ActionView::Template::Error (undefined method `title' for {:feedback=>{}}:Hash):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: <h1><%=local_assigns.title%></h1>
+    3: 
+    4: <p>This site is for my family an I, because we know how to watch movies....</p>
+    5: 
+  
+app/views/mvpage/movielist.html.erb:2
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/" for 10.0.2.2 at 2019-10-06 10:23:49 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1688)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 2086)
+
+
+  
+ActionView::Template::Error (undefined method `title' for {:feedback=>{}}:Hash):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: <h1><%=local_assigns.title%></h1>
+    3: 
+    4: <p>This site is for my family an I, because we know how to watch movies....</p>
+    5: 
+  
+app/views/mvpage/movielist.html.erb:2
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/" for 10.0.2.2 at 2019-10-06 10:24:09 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1690)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2090)
+
+
+  
+ActionView::Template::Error (undefined method `title' for {:feedback=>{}}:Hash):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: <h1><%=local_assigns.title%></h1>
+    3: 
+    4: <p>This site is for my family an I, because we know how to watch movies....</p>
+    5: 
+  
+app/views/mvpage/movielist.html.erb:2
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/" for 10.0.2.2 at 2019-10-06 10:25:15 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1657)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2220)
+
+
+  
+ActionView::Template::Error (undefined method `title' for #<Hash:0x00007f7bfddb69a8>):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: <h1><%=local_assigns.title%></h1>
+    3: 
+    4: <p>This site is for my family an I, because we know how to watch movies....</p>
+    5: 
+  
+app/views/mvpage/movielist.html.erb:2
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/" for 10.0.2.2 at 2019-10-06 10:25:17 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1696)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2100)
+
+
+  
+ActionView::Template::Error (undefined method `title' for #<Hash:0x00007f7bfd8142c0>):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: <h1><%=local_assigns.title%></h1>
+    3: 
+    4: <p>This site is for my family an I, because we know how to watch movies....</p>
+    5: 
+  
+app/views/mvpage/movielist.html.erb:2
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/" for 10.0.2.2 at 2019-10-06 10:25:18 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1696)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2100)
+
+
+  
+ActionView::Template::Error (undefined method `title' for #<Hash:0x00007f7bfea15140>):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: <h1><%=local_assigns.title%></h1>
+    3: 
+    4: <p>This site is for my family an I, because we know how to watch movies....</p>
+    5: 
+  
+app/views/mvpage/movielist.html.erb:2
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/" for 10.0.2.2 at 2019-10-06 10:25:19 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1696)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2100)
+
+
+  
+ActionView::Template::Error (undefined method `title' for #<Hash:0x00007f7bfef8aa08>):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: <h1><%=local_assigns.title%></h1>
+    3: 
+    4: <p>This site is for my family an I, because we know how to watch movies....</p>
+    5: 
+  
+app/views/mvpage/movielist.html.erb:2
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/" for 10.0.2.2 at 2019-10-06 10:25:24 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1696)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2100)
+
+
+  
+ActionView::Template::Error (undefined method `title' for #<Hash:0x00007f7bfe754d70>):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: <h1><%=local_assigns.title%></h1>
+    3: 
+    4: <p>This site is for my family an I, because we know how to watch movies....</p>
+    5: 
+  
+app/views/mvpage/movielist.html.erb:2
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/" for 10.0.2.2 at 2019-10-06 10:25:26 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1696)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2100)
+
+
+  
+ActionView::Template::Error (undefined method `title' for #<Hash:0x00007f7bfefdcf60>):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: <h1><%=local_assigns.title%></h1>
+    3: 
+    4: <p>This site is for my family an I, because we know how to watch movies....</p>
+    5: 
+  
+app/views/mvpage/movielist.html.erb:2
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/" for 10.0.2.2 at 2019-10-06 10:26:03 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 372.8ms | Allocations: 145997)
+Completed 500 Internal Server Error in 381ms (ActiveRecord: 0.0ms | Allocations: 147148)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `grabber' for #<#<Class:0x00007f7bff05ec68>:0x00007f7bff05d3b8>):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: <h1><%=grabber.title%></h1>
+    3: 
+    4: <p>This site is for my family an I, because we know how to watch movies....</p>
+    5: 
+  
+app/views/mvpage/movielist.html.erb:2
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/" for 10.0.2.2 at 2019-10-06 10:26:32 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 397.2ms | Allocations: 145761)
+Completed 500 Internal Server Error in 399ms (ActiveRecord: 0.0ms | Allocations: 146325)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `grabber' for #<#<Class:0x00007f7bfefa4e80>:0x00007f7bfef535d0>):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: <h1><%=grabber.title%></h1>
+    3: 
+    4: <p>This site is for my family an I, because we know how to watch movies....</p>
+    5: 
+  
+app/views/mvpage/movielist.html.erb:2
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/" for 10.0.2.2 at 2019-10-06 10:27:45 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 362.9ms | Allocations: 145760)
+Completed 500 Internal Server Error in 365ms (ActiveRecord: 0.0ms | Allocations: 146327)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `grabber' for #<#<Class:0x000055b1a1887978>:0x000055b1a189f870>):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: <h1><%=grabber.title%></h1>
+    3: 
+    4: <p>This site is for my family an I, because we know how to watch movies....</p>
+    5: 
+  
+app/views/mvpage/movielist.html.erb:2
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/" for 10.0.2.2 at 2019-10-06 10:27:47 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 362.5ms | Allocations: 145798)
+Completed 500 Internal Server Error in 364ms (ActiveRecord: 0.0ms | Allocations: 146204)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `grabber' for #<#<Class:0x000055b1a1887978>:0x00007f7bfee4f5a8>):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: <h1><%=grabber.title%></h1>
+    3: 
+    4: <p>This site is for my family an I, because we know how to watch movies....</p>
+    5: 
+  
+app/views/mvpage/movielist.html.erb:2
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/" for 10.0.2.2 at 2019-10-06 10:28:18 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 358.7ms | Allocations: 146090)
+Completed 500 Internal Server Error in 364ms (ActiveRecord: 0.0ms | Allocations: 147242)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `moviegrab' for #<#<Class:0x000055b1a26a9a88>:0x000055b1a26b3a38>
+Did you mean?  moviegrab_url):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: 
+    3: <h1><%=moviegrab.title%></h1>
+    4: 
+    5: <p>This site is for my family an I, because we know how to watch movies....</p>
+    6: 
+  
+app/views/mvpage/movielist.html.erb:3
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/1" for 10.0.2.2 at 2019-10-06 11:32:06 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/vagrant/movieapp/config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+  get 'movie_dbs/:id' to: 'movie_dbs#show', as: 'movi...
+                      ^~):
+  
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+Started GET "/1" for 10.0.2.2 at 2019-10-06 11:32:28 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/1"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/1" for 10.0.2.2 at 2019-10-06 11:32:35 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/vagrant/movieapp/config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+  get 'movie_dbs/:id' to: 'movie_dbs#show', as: 'movi...
+                      ^~):
+  
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+Started GET "/1" for 10.0.2.2 at 2019-10-06 11:33:34 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/vagrant/movieapp/config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+  get 'movie_dbs/:id' to: 'movie_dbs#show', as: 'movi...
+                      ^~):
+  
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+Started GET "/1" for 10.0.2.2 at 2019-10-06 11:33:35 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/1"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/1" for 10.0.2.2 at 2019-10-06 11:33:36 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/1"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/movie_dbs/1" for 10.0.2.2 at 2019-10-06 11:33:51 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/movie_dbs/1"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/movie_db/1" for 10.0.2.2 at 2019-10-06 11:33:59 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/movie_db/1"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/movielist/1" for 10.0.2.2 at 2019-10-06 11:34:20 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/movielist/1"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/moviedb/1" for 10.0.2.2 at 2019-10-06 11:34:34 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/moviedb/1"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/moviedbs/1" for 10.0.2.2 at 2019-10-06 11:34:41 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/moviedbs/1"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/1" for 10.0.2.2 at 2019-10-06 11:34:48 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/1"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 10.0.2.2 at 2019-10-06 11:34:59 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 10.0.2.2 at 2019-10-06 11:35:27 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/vagrant/movieapp/config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+  get 'movie_dbs/:id' to: 'movie_dbs#show', as: 'movi...
+                      ^~):
+  
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+Started GET "/" for 10.0.2.2 at 2019-10-06 11:36:02 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/vagrant/movieapp/config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+  get 'movie_dbs/:id' to: 'movie_dbs#show', as: 'movi...
+                      ^~):
+  
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+Started GET "/" for 10.0.2.2 at 2019-10-06 11:36:37 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/vagrant/movieapp/app/controllers/mvpage_controller.rb:4: syntax error, unexpected '}', expecting =>
+...st, locals: { feedback:{params} } }
+...                              ^
+/vagrant/movieapp/app/controllers/mvpage_controller.rb:14: syntax error, unexpected end, expecting '}'):
+  
+app/controllers/mvpage_controller.rb:4: syntax error, unexpected '}', expecting =>
+app/controllers/mvpage_controller.rb:14: syntax error, unexpected end, expecting '}'
+app/controllers/mvpage_controller.rb:4: syntax error, unexpected '}', expecting =>
+app/controllers/mvpage_controller.rb:14: syntax error, unexpected end, expecting '}'
+app/controllers/mvpage_controller.rb:4: syntax error, unexpected '}', expecting =>
+app/controllers/mvpage_controller.rb:14: syntax error, unexpected end, expecting '}'
+Started GET "/" for 10.0.2.2 at 2019-10-06 11:37:13 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/vagrant/movieapp/app/controllers/mvpage_controller.rb:4: syntax error, unexpected '}', expecting =>
+...st, locals: { feedback:{params} } }
+...                              ^
+/vagrant/movieapp/app/controllers/mvpage_controller.rb:14: syntax error, unexpected end, expecting '}'):
+  
+app/controllers/mvpage_controller.rb:4: syntax error, unexpected '}', expecting =>
+app/controllers/mvpage_controller.rb:14: syntax error, unexpected end, expecting '}'
+app/controllers/mvpage_controller.rb:4: syntax error, unexpected '}', expecting =>
+app/controllers/mvpage_controller.rb:14: syntax error, unexpected end, expecting '}'
+app/controllers/mvpage_controller.rb:4: syntax error, unexpected '}', expecting =>
+app/controllers/mvpage_controller.rb:14: syntax error, unexpected end, expecting '}'
+Started GET "/" for 10.0.2.2 at 2019-10-06 11:37:15 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/vagrant/movieapp/app/controllers/mvpage_controller.rb:4: syntax error, unexpected '}', expecting =>
+...st, locals: { feedback:{params} } }
+...                              ^
+/vagrant/movieapp/app/controllers/mvpage_controller.rb:14: syntax error, unexpected end, expecting '}'):
+  
+app/controllers/mvpage_controller.rb:4: syntax error, unexpected '}', expecting =>
+app/controllers/mvpage_controller.rb:14: syntax error, unexpected end, expecting '}'
+app/controllers/mvpage_controller.rb:4: syntax error, unexpected '}', expecting =>
+app/controllers/mvpage_controller.rb:14: syntax error, unexpected end, expecting '}'
+app/controllers/mvpage_controller.rb:4: syntax error, unexpected '}', expecting =>
+app/controllers/mvpage_controller.rb:14: syntax error, unexpected end, expecting '}'
+Started GET "/" for 10.0.2.2 at 2019-10-06 11:37:27 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 544.1ms | Allocations: 146175)
+Completed 500 Internal Server Error in 553ms (ActiveRecord: 0.0ms | Allocations: 147332)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `moviegrab' for #<#<Class:0x00007f7bfe739a48>:0x00007f7bfe757b38>
+Did you mean?  moviegrab_url):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: 
+    3: <h1><%=moviegrab.title%></h1>
+    4: 
+    5: <p>This site is for my family an I, because we know how to watch movies....</p>
+    6: 
+  
+app/views/mvpage/movielist.html.erb:3
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/" for 10.0.2.2 at 2019-10-06 11:37:57 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 337.6ms | Allocations: 145942)
+Completed 500 Internal Server Error in 340ms (ActiveRecord: 0.0ms | Allocations: 146508)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `moviegrab' for #<#<Class:0x00007f7bfefc3150>:0x00007f7bfefc1788>
+Did you mean?  moviegrab_url):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: 
+    3: <h1><%=moviegrab.title%></h1>
+    4: 
+    5: <p>This site is for my family an I, because we know how to watch movies....</p>
+    6: 
+  
+app/views/mvpage/movielist.html.erb:3
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/" for 10.0.2.2 at 2019-10-06 11:37:58 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 340.1ms | Allocations: 145980)
+Completed 500 Internal Server Error in 342ms (ActiveRecord: 0.0ms | Allocations: 146386)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `moviegrab' for #<#<Class:0x00007f7bfefc3150>:0x00007f7bfd73a4d0>
+Did you mean?  moviegrab_url):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: 
+    3: <h1><%=moviegrab.title%></h1>
+    4: 
+    5: <p>This site is for my family an I, because we know how to watch movies....</p>
+    6: 
+  
+app/views/mvpage/movielist.html.erb:3
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/" for 10.0.2.2 at 2019-10-06 11:38:14 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 338.9ms | Allocations: 146006)
+Completed 500 Internal Server Error in 346ms (ActiveRecord: 0.0ms | Allocations: 147158)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `grabber' for #<#<Class:0x00007f7bfd6c7cc8>:0x00007f7bfd6c6440>):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: 
+    3: <h1><%=grabber.title%></h1>
+    4: 
+    5: <p>This site is for my family an I, because we know how to watch movies....</p>
+    6: 
+  
+app/views/mvpage/movielist.html.erb:3
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/movielist/" for 10.0.2.2 at 2019-10-06 11:38:30 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#movielist as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 321.1ms | Allocations: 145797)
+Completed 500 Internal Server Error in 323ms (ActiveRecord: 0.0ms | Allocations: 146204)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `grabber' for #<#<Class:0x00007f7bfd6c7cc8>:0x00007f7bfee54ee0>):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: 
+    3: <h1><%=grabber.title%></h1>
+    4: 
+    5: <p>This site is for my family an I, because we know how to watch movies....</p>
+    6: 
+  
+app/views/mvpage/movielist.html.erb:3
+app/controllers/mvpage_controller.rb:4:in `block (2 levels) in movielist'
+app/controllers/mvpage_controller.rb:3:in `movielist'
+Started GET "/movielist/1" for 10.0.2.2 at 2019-10-06 11:38:34 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovieDb Load (0.4ms)[0m  [1m[34mSELECT "movie_dbs".* FROM "movie_dbs" WHERE "movie_dbs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/mvpage_controller.rb:9:in `moviegrab'
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.6ms | Allocations: 644)
+Completed 200 OK in 16629ms (Views: 16582.8ms | ActiveRecord: 9.3ms | Allocations: 1260551)
+
+
+Started GET "/movie_dbs/1" for 10.0.2.2 at 2019-10-06 11:39:22 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MovieDbsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2226)
+
+
+  
+NameError (uninitialized constant MovieDbsController::Movie_db):
+  
+app/controllers/movie_dbs_controller.rb:9:in `show'
+Started GET "/movie_dbs/1" for 10.0.2.2 at 2019-10-06 11:39:53 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MovieDbsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovieDb Load (0.7ms)[0m  [1m[34mSELECT "movie_dbs".* FROM "movie_dbs" WHERE "movie_dbs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/movie_dbs_controller.rb:9:in `show'
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 6.3ms | Allocations: 8790)
+
+
+  
+ActionView::MissingTemplate (Missing template movie_dbs/movielist, application/movielist with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/vagrant/movieapp/app/views"
+  * "/home/vagrant/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.0/app/views"
+  * "/home/vagrant/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.0/app/views"
+):
+  
+app/controllers/movie_dbs_controller.rb:11:in `block (2 levels) in show'
+app/controllers/movie_dbs_controller.rb:10:in `show'
+Started GET "/movie_dbs/1" for 10.0.2.2 at 2019-10-06 11:40:53 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MovieDbsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovieDb Load (0.7ms)[0m  [1m[34mSELECT "movie_dbs".* FROM "movie_dbs" WHERE "movie_dbs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/movie_dbs_controller.rb:9:in `show'
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 4.2ms | Allocations: 8579)
+
+
+  
+ActionView::MissingTemplate (Missing template movie_dbs/movie_dbs, application/movie_dbs with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/vagrant/movieapp/app/views"
+  * "/home/vagrant/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.0/app/views"
+  * "/home/vagrant/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.0/app/views"
+):
+  
+app/controllers/movie_dbs_controller.rb:11:in `block (2 levels) in show'
+app/controllers/movie_dbs_controller.rb:10:in `show'
+Started GET "/movie_dbs/1" for 10.0.2.2 at 2019-10-06 11:40:55 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MovieDbsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovieDb Load (0.4ms)[0m  [1m[34mSELECT "movie_dbs".* FROM "movie_dbs" WHERE "movie_dbs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/movie_dbs_controller.rb:9:in `show'
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.4ms | Allocations: 1431)
+
+
+  
+ActionView::MissingTemplate (Missing template movie_dbs/movie_dbs, application/movie_dbs with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/vagrant/movieapp/app/views"
+  * "/home/vagrant/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.0/app/views"
+  * "/home/vagrant/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.0/app/views"
+):
+  
+app/controllers/movie_dbs_controller.rb:11:in `block (2 levels) in show'
+app/controllers/movie_dbs_controller.rb:10:in `show'
+Started GET "/movie_dbs/1" for 10.0.2.2 at 2019-10-06 11:41:00 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MovieDbsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovieDb Load (0.2ms)[0m  [1m[34mSELECT "movie_dbs".* FROM "movie_dbs" WHERE "movie_dbs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/movie_dbs_controller.rb:9:in `show'
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 3.6ms | Allocations: 8618)
+
+
+  
+ActionView::MissingTemplate (Missing template movie_dbs/movie_db, application/movie_db with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/vagrant/movieapp/app/views"
+  * "/home/vagrant/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.0/app/views"
+  * "/home/vagrant/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.0/app/views"
+):
+  
+app/controllers/movie_dbs_controller.rb:11:in `block (2 levels) in show'
+app/controllers/movie_dbs_controller.rb:10:in `show'
+Started GET "/movielist/1" for 10.0.2.2 at 2019-10-06 11:41:25 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovieDb Load (1.4ms)[0m  [1m[34mSELECT "movie_dbs".* FROM "movie_dbs" WHERE "movie_dbs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/mvpage_controller.rb:9:in `moviegrab'
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.0ms | Allocations: 393)
+Completed 200 OK in 57ms (Views: 50.8ms | ActiveRecord: 1.4ms | Allocations: 6894)
+
+
+Started GET "/movie_dbs" for 10.0.2.2 at 2019-10-06 11:42:49 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MovieDbsController#index as HTML
+  Rendering movie_dbs/index.html.erb within layouts/application
+  Rendered movie_dbs/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 85)
+Completed 200 OK in 68ms (Views: 64.9ms | ActiveRecord: 0.0ms | Allocations: 6271)
+
+
+Started GET "/movie_dbs/1" for 10.0.2.2 at 2019-10-06 11:43:05 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MovieDbsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovieDb Load (0.5ms)[0m  [1m[34mSELECT "movie_dbs".* FROM "movie_dbs" WHERE "movie_dbs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/movie_dbs_controller.rb:9:in `show'
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.8ms | Allocations: 1499)
+
+
+  
+ActionView::MissingTemplate (Missing template movie_dbs/movie_db, application/movie_db with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/vagrant/movieapp/app/views"
+  * "/home/vagrant/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.0/app/views"
+  * "/home/vagrant/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.0/app/views"
+):
+  
+app/controllers/movie_dbs_controller.rb:11:in `block (2 levels) in show'
+app/controllers/movie_dbs_controller.rb:10:in `show'
+Started GET "/movie_dbs/1" for 10.0.2.2 at 2019-10-06 11:43:31 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MovieDbsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovieDb Load (0.3ms)[0m  [1m[34mSELECT "movie_dbs".* FROM "movie_dbs" WHERE "movie_dbs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/movie_dbs_controller.rb:9:in `show'
+  Rendering movie_dbs/show.html.erb within layouts/application
+  Rendered movie_dbs/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 94)
+Completed 200 OK in 70ms (Views: 48.1ms | ActiveRecord: 5.8ms | Allocations: 13206)
+
+

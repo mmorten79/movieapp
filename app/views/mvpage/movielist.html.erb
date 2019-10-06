@@ -2,18 +2,20 @@
 
 <% if params.has_key? :movie_breakdown and not params.blank? %>
 <h1><%=grabber.title%></h1>
-<%end%>
+    <p><a href = <%=grabber.rotten_site%> > <%=grabber.rotten_site %></a></p>
+
 <p>This site is for my family an I, because we know how to watch movies....</p>
 
 <p><i>This application will give you all the information needed on popular movie titles</i></p>
 <br>
 <br>
+<%end%>
 <%= form_with url: moviegrab_path, local: true, method: :post do %>
 
 <p><i><b><%= label_tag "Pick a type of Movie:" %></i></b></p>
 <%= select_tag "movie_breakdown", 
 options_for_select(["Horror","Love", "Mystery","Suspense","Sci-Fi","Rated +18"], 
-feedback.fetch("", :movie_breakdown)), prompt: "Choose one..." %>
+feedback.fetch(:movie_breakdown, :grabber)), prompt: "Choose one..." %>
 
  <%= submit_tag "Select" %>
 

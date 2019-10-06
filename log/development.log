@@ -3114,3 +3114,553 @@ Processing by MvpageController#moviegrab as HTML
 Completed 200 OK in 142ms (Views: 131.1ms | ActiveRecord: 4.8ms | Allocations: 6781)
 
 
+Started GET "/movielist" for 10.0.2.2 at 2019-10-06 12:48:27 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.7ms | Allocations: 641)
+Completed 200 OK in 72ms (Views: 71.2ms | ActiveRecord: 0.0ms | Allocations: 7361)
+
+
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 12:48:33 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"K3iVKn1kUDucu4B95lgQp0MhcvnnQK7SxSYdg2HeN7zpDGa2OFW8pwkbrgawtK80KNQSl08mDEkOjRVC+9NOsg==", "movie_breakdown"=>"Horror", "commit"=>"Select"}
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1258)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1788)
+
+
+  
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: 
+    3: <% if params.has_key? :movie_breakdown and not params.blank? %>
+    4: <h1><%=grabber.title%></h1>
+    5: 
+    6: <%end%>
+    7: <p>This site is for my family an I, because we know how to watch movies....</p>
+  
+app/views/mvpage/movielist.html.erb:4
+app/controllers/mvpage_controller.rb:14:in `block (2 levels) in moviegrab'
+app/controllers/mvpage_controller.rb:13:in `moviegrab'
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 12:49:09 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"K3iVKn1kUDucu4B95lgQp0MhcvnnQK7SxSYdg2HeN7zpDGa2OFW8pwkbrgawtK80KNQSl08mDEkOjRVC+9NOsg==", "movie_breakdown"=>"Horror", "commit"=>"Select"}
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1508)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 2783)
+
+
+  
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: 
+    3: <% if params.has_key? :movie_breakdown and not params.blank? %>
+    4: <h1><%=grabber.title%></h1>
+    5: <%else%>
+    6: <%end%>
+    7: <p>This site is for my family an I, because we know how to watch movies....</p>
+  
+app/views/mvpage/movielist.html.erb:4
+app/controllers/mvpage_controller.rb:14:in `block (2 levels) in moviegrab'
+app/controllers/mvpage_controller.rb:13:in `moviegrab'
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 12:51:00 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"K3iVKn1kUDucu4B95lgQp0MhcvnnQK7SxSYdg2HeN7zpDGa2OFW8pwkbrgawtK80KNQSl08mDEkOjRVC+9NOsg==", "movie_breakdown"=>"Horror", "commit"=>"Select"}
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1460)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 2741)
+
+
+  
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: 
+    3: <% if params.has_key? :movie_breakdown and not params.blank? %>
+    4: <h1><%=grabber.title%></h1>
+    5: <%end%>
+    6: <p>This site is for my family an I, because we know how to watch movies....</p>
+    7: 
+  
+app/views/mvpage/movielist.html.erb:4
+app/controllers/mvpage_controller.rb:13:in `block (2 levels) in moviegrab'
+app/controllers/mvpage_controller.rb:12:in `moviegrab'
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 12:51:18 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"K3iVKn1kUDucu4B95lgQp0MhcvnnQK7SxSYdg2HeN7zpDGa2OFW8pwkbrgawtK80KNQSl08mDEkOjRVC+9NOsg==", "movie_breakdown"=>"Horror", "commit"=>"Select"}
+No template found for MvpageController#moviegrab, rendering head :no_content
+Completed 204 No Content in 7ms (ActiveRecord: 0.0ms | Allocations: 1709)
+
+
+Started GET "/movielist" for 10.0.2.2 at 2019-10-06 12:52:56 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.4ms | Allocations: 397)
+Completed 200 OK in 59ms (Views: 58.0ms | ActiveRecord: 0.0ms | Allocations: 6496)
+
+
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 12:53:02 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"tGLW2X3FkugpomlDhOFjlIt/fFvvCRl8wJ0OCt2+vF0RYqVv8ar5SKB3S5S20qwwsztKkMtJsXaL5473V+ckbg==", "movie_breakdown"=>"Horror", "commit"=>"Select"}
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1815)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2304)
+
+
+  
+ActionView::Template::Error (undefined method `title' for "":String
+Did you mean?  titleize):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: 
+    3: <% if params.has_key? :movie_breakdown and not params.blank? %>
+    4: <h1><%=grabber.title%></h1>
+    5: <%end%>
+    6: <p>This site is for my family an I, because we know how to watch movies....</p>
+    7: 
+  
+app/views/mvpage/movielist.html.erb:4
+app/controllers/mvpage_controller.rb:16:in `block (2 levels) in moviegrab'
+app/controllers/mvpage_controller.rb:15:in `moviegrab'
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 12:56:38 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"tGLW2X3FkugpomlDhOFjlIt/fFvvCRl8wJ0OCt2+vF0RYqVv8ar5SKB3S5S20qwwsztKkMtJsXaL5473V+ckbg==", "movie_breakdown"=>"Horror", "commit"=>"Select"}
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1146)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 2381)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+
+<% if params.has_key? :movie_breakdown and not params.blank? %>
+<h1><%=grabber.title%></h1>
+<% if params.blank? %>
+
+<p>This site is for my family an I, because we know how to watch movies....</p>
+
+<p><i>This application will give you all the information needed on popular movie titles</i></p>
+<br>
+<br>
+<%= form_with url: moviegrab_path, local: true, method: :post do %>
+
+<p><i><b><%= label_tag "Pick a type of Movie:" %></i></b></p>
+<%= select_tag "movie_breakdown", 
+options_for_select(["Horror","Love", "Mystery","Suspense","Sci-Fi","Rated +18"], 
+feedback.fetch("", :movie_breakdown)), prompt: "Choose one..." %>
+
+ <%= submit_tag "Select" %>
+<%end%>
+<% end %>
+):
+1:    <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+2:    
+3:    <% if params.has_key? :movie_breakdown and not params.blank? %>
+4:    <h1><%=grabber.title%></h1>
+5:    <% if params.blank? %>
+6:    
+7:    <p>This site is for my family an I, because we know how to watch movies....</p>
+8:    
+9:    <p><i>This application will give you all the information needed on popular movie titles</i></p>
+10:    <br>
+11:    <br>
+12:    <%= form_with url: moviegrab_path, local: true, method: :post do %>
+13:    
+14:    <p><i><b><%= label_tag "Pick a type of Movie:" %></i></b></p>
+15:    <%= select_tag "movie_breakdown", 
+16:    options_for_select(["Horror","Love", "Mystery","Suspense","Sci-Fi","Rated +18"], 
+17:    feedback.fetch("", :movie_breakdown)), prompt: "Choose one..." %>
+18:    
+19:     <%= submit_tag "Select" %>
+20:    <%end%>
+21:    <% end %>
+  
+app/views/mvpage/movielist.html.erb:23: syntax error, unexpected end-of-input, expecting end
+app/views/mvpage/movielist.html.erb:23: syntax error, unexpected end-of-input, expecting end
+app/views/mvpage/movielist.html.erb:23: syntax error, unexpected end-of-input, expecting end
+app/views/mvpage/movielist.html.erb:23: syntax error, unexpected end-of-input, expecting end
+app/views/mvpage/movielist.html.erb:23: syntax error, unexpected end-of-input, expecting end
+app/views/mvpage/movielist.html.erb:23: syntax error, unexpected end-of-input, expecting end
+app/controllers/mvpage_controller.rb:16:in `block (2 levels) in moviegrab'
+app/controllers/mvpage_controller.rb:15:in `moviegrab'
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 12:57:29 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"tGLW2X3FkugpomlDhOFjlIt/fFvvCRl8wJ0OCt2+vF0RYqVv8ar5SKB3S5S20qwwsztKkMtJsXaL5473V+ckbg==", "movie_breakdown"=>"Horror", "commit"=>"Select"}
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2086)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 3320)
+
+
+  
+ActionView::Template::Error (undefined method `title' for "":String
+Did you mean?  titleize):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: 
+    3: <% if params.has_key? :movie_breakdown and not params.blank? %>
+    4: <h1><%=grabber.title%></h1><%end%>
+    5: <% if params.blank? %>
+    6: 
+    7: <p>This site is for my family an I, because we know how to watch movies....</p>
+  
+app/views/mvpage/movielist.html.erb:4
+app/controllers/mvpage_controller.rb:16:in `block (2 levels) in moviegrab'
+app/controllers/mvpage_controller.rb:15:in `moviegrab'
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 12:58:01 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"tGLW2X3FkugpomlDhOFjlIt/fFvvCRl8wJ0OCt2+vF0RYqVv8ar5SKB3S5S20qwwsztKkMtJsXaL5473V+ckbg==", "movie_breakdown"=>"Horror", "commit"=>"Select"}
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 3.5ms | Allocations: 2071)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 3305)
+
+
+  
+ActionView::Template::Error (undefined method `title' for "":String
+Did you mean?  titleize):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: 
+    3: <% if params.has_key? :movie_breakdown and not params.blank? %>
+    4: <h1><%=grabber.title%></h1>
+    5: <% elsif params.blank? %>
+    6: 
+    7: <p>This site is for my family an I, because we know how to watch movies....</p>
+  
+app/views/mvpage/movielist.html.erb:4
+app/controllers/mvpage_controller.rb:16:in `block (2 levels) in moviegrab'
+app/controllers/mvpage_controller.rb:15:in `moviegrab'
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 12:58:15 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"tGLW2X3FkugpomlDhOFjlIt/fFvvCRl8wJ0OCt2+vF0RYqVv8ar5SKB3S5S20qwwsztKkMtJsXaL5473V+ckbg==", "movie_breakdown"=>"Horror", "commit"=>"Select"}
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2069)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 3303)
+
+
+  
+ActionView::Template::Error (undefined method `title' for "":String
+Did you mean?  titleize):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: 
+    3: <% if params.has_key? :movie_breakdown %>
+    4: <h1><%=grabber.title%></h1>
+    5: <% elsif params.blank? %>
+    6: 
+    7: <p>This site is for my family an I, because we know how to watch movies....</p>
+  
+app/views/mvpage/movielist.html.erb:4
+app/controllers/mvpage_controller.rb:16:in `block (2 levels) in moviegrab'
+app/controllers/mvpage_controller.rb:15:in `moviegrab'
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 12:59:10 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"tGLW2X3FkugpomlDhOFjlIt/fFvvCRl8wJ0OCt2+vF0RYqVv8ar5SKB3S5S20qwwsztKkMtJsXaL5473V+ckbg==", "movie_breakdown"=>"Horror", "commit"=>"Select"}
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 4.6ms | Allocations: 2069)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 3303)
+
+
+  
+ActionView::Template::Error (undefined method `title' for "":String
+Did you mean?  titleize):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: 
+    3: <% if params.has_key? :movie_breakdown and not params.blank? %>
+    4: <h1><%=grabber.title%></h1>
+    5: <% elsif params.blank? %>
+    6: 
+    7: <p>This site is for my family an I, because we know how to watch movies....</p>
+  
+app/views/mvpage/movielist.html.erb:4
+app/controllers/mvpage_controller.rb:16:in `block (2 levels) in moviegrab'
+app/controllers/mvpage_controller.rb:15:in `moviegrab'
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 12:59:26 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"tGLW2X3FkugpomlDhOFjlIt/fFvvCRl8wJ0OCt2+vF0RYqVv8ar5SKB3S5S20qwwsztKkMtJsXaL5473V+ckbg==", "movie_breakdown"=>"Horror", "commit"=>"Select"}
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1149)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 2384)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+
+<% if params.has_key? :movie_breakdown and not params.blank? %>
+<h1><%=grabber.title%></h1>
+<% if params.blank? %>
+
+<p>This site is for my family an I, because we know how to watch movies....</p>
+
+<p><i>This application will give you all the information needed on popular movie titles</i></p>
+<br>
+<br>
+<%end%>
+<%= form_with url: moviegrab_path, local: true, method: :post do %>
+
+<p><i><b><%= label_tag "Pick a type of Movie:" %></i></b></p>
+<%= select_tag "movie_breakdown", 
+options_for_select(["Horror","Love", "Mystery","Suspense","Sci-Fi","Rated +18"], 
+feedback.fetch("", :movie_breakdown)), prompt: "Choose one..." %>
+
+ <%= submit_tag "Select" %>
+
+<% end %>
+):
+1:    <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+2:    
+3:    <% if params.has_key? :movie_breakdown and not params.blank? %>
+4:    <h1><%=grabber.title%></h1>
+5:    <% if params.blank? %>
+6:    
+7:    <p>This site is for my family an I, because we know how to watch movies....</p>
+8:    
+9:    <p><i>This application will give you all the information needed on popular movie titles</i></p>
+10:    <br>
+11:    <br>
+12:    <%end%>
+13:    <%= form_with url: moviegrab_path, local: true, method: :post do %>
+14:    
+15:    <p><i><b><%= label_tag "Pick a type of Movie:" %></i></b></p>
+16:    <%= select_tag "movie_breakdown", 
+17:    options_for_select(["Horror","Love", "Mystery","Suspense","Sci-Fi","Rated +18"], 
+18:    feedback.fetch("", :movie_breakdown)), prompt: "Choose one..." %>
+19:    
+20:     <%= submit_tag "Select" %>
+21:    
+22:    <% end %>
+  
+app/views/mvpage/movielist.html.erb:24: syntax error, unexpected end-of-input, expecting end
+app/views/mvpage/movielist.html.erb:24: syntax error, unexpected end-of-input, expecting end
+app/views/mvpage/movielist.html.erb:24: syntax error, unexpected end-of-input, expecting end
+app/views/mvpage/movielist.html.erb:24: syntax error, unexpected end-of-input, expecting end
+app/views/mvpage/movielist.html.erb:24: syntax error, unexpected end-of-input, expecting end
+app/views/mvpage/movielist.html.erb:24: syntax error, unexpected end-of-input, expecting end
+app/controllers/mvpage_controller.rb:16:in `block (2 levels) in moviegrab'
+app/controllers/mvpage_controller.rb:15:in `moviegrab'
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 12:59:54 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"tGLW2X3FkugpomlDhOFjlIt/fFvvCRl8wJ0OCt2+vF0RYqVv8ar5SKB3S5S20qwwsztKkMtJsXaL5473V+ckbg==", "movie_breakdown"=>"Horror", "commit"=>"Select"}
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 3.9ms | Allocations: 2081)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 3315)
+
+
+  
+ActionView::Template::Error (undefined method `title' for "":String
+Did you mean?  titleize):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: 
+    3: <% if params.has_key? :movie_breakdown and not params.blank? %>
+    4: <h1><%=grabber.title%></h1><%end%>
+    5: <% if params.blank? %>
+    6: 
+    7: <p>This site is for my family an I, because we know how to watch movies....</p>
+  
+app/views/mvpage/movielist.html.erb:4
+app/controllers/mvpage_controller.rb:16:in `block (2 levels) in moviegrab'
+app/controllers/mvpage_controller.rb:15:in `moviegrab'
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 13:00:30 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"tGLW2X3FkugpomlDhOFjlIt/fFvvCRl8wJ0OCt2+vF0RYqVv8ar5SKB3S5S20qwwsztKkMtJsXaL5473V+ckbg==", "movie_breakdown"=>"Horror", "commit"=>"Select"}
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 6.0ms | Allocations: 2015)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 3255)
+
+
+  
+ActionView::Template::Error (undefined method `title' for "":String
+Did you mean?  titleize):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: 
+    3: <% if params.has_key? :movie_breakdown and not params.blank? %>
+    4: <h1><%=grabber.title%></h1>
+    5: 
+    6: <p>This site is for my family an I, because we know how to watch movies....</p>
+    7: 
+  
+app/views/mvpage/movielist.html.erb:4
+app/controllers/mvpage_controller.rb:16:in `block (2 levels) in moviegrab'
+app/controllers/mvpage_controller.rb:15:in `moviegrab'
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 13:01:09 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"tGLW2X3FkugpomlDhOFjlIt/fFvvCRl8wJ0OCt2+vF0RYqVv8ar5SKB3S5S20qwwsztKkMtJsXaL5473V+ckbg==", "movie_breakdown"=>"Suspense", "commit"=>"Select"}
+  [1m[36mMovieDb Load (0.3ms)[0m  [1m[34mSELECT "movie_dbs".* FROM "movie_dbs" WHERE "movie_dbs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/mvpage_controller.rb:10:in `moviegrab'
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.3ms | Allocations: 403)
+Completed 200 OK in 83ms (Views: 49.8ms | ActiveRecord: 6.7ms | Allocations: 15367)
+
+
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 13:01:14 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"AXkOmRzja+lXjgzsVXHSiXybF/zLUnd/vaFAf/+HErGkeX0vkIwASd5bLjtnQh0tRN8hN+8S33X228CCdd6Kgg==", "movie_breakdown"=>"Horror", "commit"=>"Select"}
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1815)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2295)
+
+
+  
+ActionView::Template::Error (undefined method `title' for "":String
+Did you mean?  titleize):
+    1: <h1 align = "center"><u><i> MOVIES-R-US</i></u> </h1>
+    2: 
+    3: <% if params.has_key? :movie_breakdown and not params.blank? %>
+    4: <h1><%=grabber.title%></h1>
+    5: 
+    6: <p>This site is for my family an I, because we know how to watch movies....</p>
+    7: 
+  
+app/views/mvpage/movielist.html.erb:4
+app/controllers/mvpage_controller.rb:16:in `block (2 levels) in moviegrab'
+app/controllers/mvpage_controller.rb:15:in `moviegrab'
+Started GET "/movielist" for 10.0.2.2 at 2019-10-06 13:04:27 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 0.8ms | Allocations: 397)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.0ms | Allocations: 6326)
+
+
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 13:04:32 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"1D+5fhqYBKNB/dX388UYepk3CHnOUWYqnrwudZh78ahxP8rIlvdvA8go9yDB9tfeoXM+suoRziDVxq6IEiJpmw==", "movie_breakdown"=>"Love", "commit"=>"Select"}
+  [1m[36mMovieDb Load (0.4ms)[0m  [1m[34mSELECT "movie_dbs".* FROM "movie_dbs" WHERE "movie_dbs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/mvpage_controller.rb:14:in `moviegrab'
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 0.9ms | Allocations: 395)
+Completed 200 OK in 87ms (Views: 58.0ms | ActiveRecord: 9.1ms | Allocations: 13364)
+
+
+Started GET "/movielist" for 10.0.2.2 at 2019-10-06 13:05:14 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.5ms | Allocations: 632)
+Completed 200 OK in 66ms (Views: 65.0ms | ActiveRecord: 0.0ms | Allocations: 7370)
+
+
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 13:05:18 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"4YbmPdX3RCAs+dldpOnm25jtrc+rhhwsTsK0MuHPvf9EhpWLWZgvgKUs+4qW2il/oKmbBI/GtCYFuDTPa5YlzA==", "movie_breakdown"=>"Mystery", "commit"=>"Select"}
+  [1m[36mMovieDb Load (0.5ms)[0m  [1m[34mSELECT "movie_dbs".* FROM "movie_dbs" WHERE "movie_dbs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/mvpage_controller.rb:16:in `moviegrab'
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.0ms | Allocations: 399)
+Completed 200 OK in 53ms (Views: 48.2ms | ActiveRecord: 0.8ms | Allocations: 6839)
+
+
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 13:05:39 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"W1UADW+Wd4b3n7HGEHjezcoy9qxdzNT+fbJojX2iiEb+VXO74/kcJn5KkxEiSxFp8nbAZ3mMfPQ2yOhw9/sQdQ==", "movie_breakdown"=>"Love", "commit"=>"Select"}
+  [1m[36mMovieDb Load (0.4ms)[0m  [1m[34mSELECT "movie_dbs".* FROM "movie_dbs" WHERE "movie_dbs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/mvpage_controller.rb:14:in `moviegrab'
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.2ms | Allocations: 639)
+Completed 200 OK in 66ms (Views: 62.5ms | ActiveRecord: 0.4ms | Allocations: 7906)
+
+
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 13:05:43 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"KUZnIeen4bsUh8ux8AGo0+4HtFMMkgaB6s4Fgo5eCESMRhSXa8iKG51S6WbCMmd31kOCmCjSrouhtIV/BAeQdw==", "movie_breakdown"=>"Suspense", "commit"=>"Select"}
+  [1m[36mMovieDb Load (0.8ms)[0m  [1m[34mSELECT "movie_dbs".* FROM "movie_dbs" WHERE "movie_dbs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/mvpage_controller.rb:10:in `moviegrab'
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.7ms | Allocations: 401)
+Completed 200 OK in 64ms (Views: 58.8ms | ActiveRecord: 0.8ms | Allocations: 6747)
+
+
+Started GET "/movielist" for 10.0.2.2 at 2019-10-06 13:06:04 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.4ms | Allocations: 635)
+Completed 200 OK in 50ms (Views: 48.9ms | ActiveRecord: 0.0ms | Allocations: 7378)
+
+
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 13:06:08 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"maNY7FBFYCh3cdQreCjo4BnLmdDWCOcMH9gIrIWdbI08oyta3CoLiP6k9vxKGydEIY+vG/JITwZUoohRD8T0vg==", "movie_breakdown"=>"Mystery", "commit"=>"Select"}
+  [1m[36mMovieDb Load (0.4ms)[0m  [1m[34mSELECT "movie_dbs".* FROM "movie_dbs" WHERE "movie_dbs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/mvpage_controller.rb:16:in `moviegrab'
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.0ms | Allocations: 401)
+Completed 200 OK in 59ms (Views: 53.5ms | ActiveRecord: 0.4ms | Allocations: 6739)
+
+
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 13:07:08 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"i17Pj6p2wGzM1wvKb/Qopz+LWZXESCzJLVOLqF8nSbguXrw5JhmrzEUCKR1dx+cDB89vXuAIhMNmKQtV1X7Riw==", "movie_breakdown"=>"Sci-Fi", "commit"=>"Select"}
+  [1m[36mMovieDb Load (0.7ms)[0m  [1m[34mSELECT "movie_dbs".* FROM "movie_dbs" WHERE "movie_dbs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/mvpage_controller.rb:20:in `moviegrab'
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.0ms | Allocations: 405)
+Completed 200 OK in 87ms (Views: 62.8ms | ActiveRecord: 5.4ms | Allocations: 13327)
+
+
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 13:07:11 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"hOPAdhPs/16vpuQPmbumnofaF25PRwlW84HTb9hkggAh47PAn4OU/iZzxtiriGk6v54hpWsHoVy4+1OSUj0aMw==", "movie_breakdown"=>"Horror", "commit"=>"Select"}
+  [1m[36mMovieDb Load (0.3ms)[0m  [1m[34mSELECT "movie_dbs".* FROM "movie_dbs" WHERE "movie_dbs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/mvpage_controller.rb:12:in `moviegrab'
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.1ms | Allocations: 396)
+Completed 200 OK in 49ms (Views: 45.0ms | ActiveRecord: 0.3ms | Allocations: 6731)
+
+
+Started GET "/movielist" for 10.0.2.2 at 2019-10-06 13:08:59 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 2.5ms | Allocations: 650)
+Completed 200 OK in 63ms (Views: 61.9ms | ActiveRecord: 0.0ms | Allocations: 7382)
+
+
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 13:09:03 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"TdAG3e7OXeQpIJ8P66ScEWlqVSjFOjK+MLu5jzSt0xzo0HVrYqE2RKD1vdjZl1O1US5j4+F6mrR7wTlyvvRLLw==", "movie_breakdown"=>"Love", "commit"=>"Select"}
+  [1m[36mMovieDb Load (0.4ms)[0m  [1m[34mSELECT "movie_dbs".* FROM "movie_dbs" WHERE "movie_dbs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/mvpage_controller.rb:14:in `moviegrab'
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 1.3ms | Allocations: 406)
+Completed 200 OK in 47ms (Views: 44.1ms | ActiveRecord: 0.4ms | Allocations: 6739)
+
+
+Started GET "/movielist" for 10.0.2.2 at 2019-10-06 13:10:17 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 3.7ms | Allocations: 661)
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.0ms | Allocations: 7394)
+
+
+Started POST "/movielist" for 10.0.2.2 at 2019-10-06 13:10:21 -0500
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MvpageController#moviegrab as HTML
+  Parameters: {"authenticity_token"=>"bM473c+Rvv5YB5gD6T/KswTS4KQxdEgRTDNT5+rTejHJzkhrQ/7VXtHSutTbDAUXPJbWbxU04BsHSdMaYIriAg==", "movie_breakdown"=>"Love", "commit"=>"Select"}
+  [1m[36mMovieDb Load (0.6ms)[0m  [1m[34mSELECT "movie_dbs".* FROM "movie_dbs" WHERE "movie_dbs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/mvpage_controller.rb:14:in `moviegrab'
+  Rendering mvpage/movielist.html.erb within layouts/application
+  Rendered mvpage/movielist.html.erb within layouts/application (Duration: 0.7ms | Allocations: 406)
+Completed 200 OK in 50ms (Views: 46.1ms | ActiveRecord: 0.6ms | Allocations: 6744)
+
+
